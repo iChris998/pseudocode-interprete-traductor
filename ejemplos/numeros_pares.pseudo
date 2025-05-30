@@ -1,0 +1,13 @@
+// Programa que imprime los números pares del 1 al 20
+numero = 1
+
+escribir "Números pares del 1 al 20:"
+
+repite (numero <= 20)
+    si (numero % 2 == 0) entonces
+        escribir numero
+    fin_si
+    numero = numero + 1
+fin_repite
+
+escribir "¡Terminado!" 

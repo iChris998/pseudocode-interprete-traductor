@@ -1,0 +1,42 @@
+// Programa que demuestra operaciones lógicas y condicionales
+a = 10
+b = 5
+c = 15
+
+escribir "Valores iniciales:"
+escribir "a = "
+escribir a
+escribir "b = "
+escribir b
+escribir "c = "
+escribir c
+
+// Comparaciones básicas
+si (a > b) entonces
+    escribir "a es mayor que b"
+sino
+    escribir "a no es mayor que b"
+fin_si
+
+// Operaciones lógicas
+si (a > b y c > a) entonces
+    escribir "a > b Y c > a es verdadero"
+fin_si
+
+si (a < b o a > 0) entonces
+    escribir "a < b O a > 0 es verdadero"
+fin_si
+
+// Negación
+si (no (a == b)) entonces
+    escribir "a no es igual a b"
+fin_si
+
+// Cálculos
+suma = a + b + c
+escribir "La suma de a + b + c = "
+escribir suma
+
+promedio = suma / 3
+escribir "El promedio es: "
+escribir promedio 

@@ -1,0 +1,14 @@
+// Programa que calcula el factorial de un número
+numero = 5
+factorial = 1
+contador = 1
+
+repite (contador <= numero)
+    factorial = factorial * contador
+    contador = contador + 1
+fin_repite
+
+escribir "El factorial de "
+escribir numero
+escribir " es: "
+escribir factorial 
